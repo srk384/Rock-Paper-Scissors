@@ -365,12 +365,20 @@ body {
   font-weight: 600;
 }
 
+@media (width<=850px) {
+  .main {
+    padding: 0 30px;
+  }
+  .header {
+    width: 100%;
+  }
+}
+
 @media (width<=425px) {
   .main {
     padding: 0 30px;
   }
   .header {
-    padding: 10px 15px;
     width: 100%;
   }
 
@@ -438,3 +446,5 @@ body {
     }
   }
 }
+
+
