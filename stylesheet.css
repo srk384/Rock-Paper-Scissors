@@ -131,6 +131,7 @@ body {
   align-items: center;
   gap: 50px;
   position: relative;
+  margin-top: 100px;
 }
 .top-buttons {
   display: flex;
@@ -182,21 +183,23 @@ body {
   }
 
   & .rules {
-    width: 200px;
+    width: 300px;
     height: auto;
     background-color: #004429;
     color: rgba(255, 255, 255, 0.9);
-    font-size: 11px;
+    font-size: 18px;
     padding: 10px;
-    padding-left: 25px;
+    padding-left: 35px;
     border-radius: 5px;
 
     & h2 {
       text-align: center;
-      font-size: 25px;
+      font-size: 30px;
       font-weight: 500;
       margin-bottom: 15px;
       color: white;
+      margin-top: 10px;
+      padding-right: 30px;
     }
 
     & ul {
@@ -204,7 +207,7 @@ body {
 
       & li::marker {
         color: yellow;
-        font-size: 20px;
+        font-size: 30px;
       }
       & li {
         margin-bottom: 10px;
@@ -410,6 +413,28 @@ body {
       letter-spacing: 0px;
       margin: 5px 0;
       text-wrap: nowrap;
+    }
+  }
+  .trophy {
+    width: 100%;
+  }
+  .button-container {
+    margin-top: 0;
+  }
+  .rulesContainer {
+    & .rules {
+      width: 200px;
+      font-size: 11px;
+      padding: 10px;
+      padding-left: 25px;
+      & h2 {
+        font-size: 25px;
+      }
+      & ul {
+        & li::marker {
+          font-size: 20px;
+        }
+      }
     }
   }
 }
